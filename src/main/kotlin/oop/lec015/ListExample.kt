@@ -18,6 +18,6 @@ fun main() {
         println("Immutable Collection Element :: 추가 불가능")
     }
 
-    printValues(immutableList, printStr = "불변 리스트")
-    printValues(toMutableList, printStr = "가변리스트로 변환 후 값 추가")
+    printCollectionValues(immutableList, printStr = "불변 리스트")
+    printCollectionValues(toMutableList, printStr = "가변리스트로 변환 후 값 추가")
 }

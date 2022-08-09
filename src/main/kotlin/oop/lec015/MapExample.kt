@@ -11,9 +11,6 @@ fun main() {
         2 to "TUE"
     )
 
-    printMapValues(oldMap, printStr = "OLD MAP")
-    printMapValues(mapOf, printStr = "MAP OF")
-
-    oldMap.entries
-    oldMap.keys
+    printMapValues(oldMap, "OLD MAP")
+    printMapValues(mapOf, "MAP OF")
 }
